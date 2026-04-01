@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Barlow:wght@300;400;600&display=swap');
+
+* {
+  font-family: Share Tech Mono;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+ font-size: 25px;
+ text-align: center; 
+}
+
+.a1 {
+  text-decoration: none;
+}
+
+p{
+ color: #5789FF;
+ font-size: 15px;
+ text-align: center; 
+}
+
+input{
+ display: block;
+ padding: 8px;
+ width: 260px;
+ margin-bottom: 30px;
+}
+
+button{
+ background-color: #5789FF;
+ display: block;
+ padding: 8px;
+ width: 300px;
+ margin-top: 30px;
+ margin-bottom: 30px;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+
+.card{
+  width: 300px;
+  padding: 20px;
+  margin: 100px auto;
+  box-shadow: 0 0 25px #5789FF;
+  border-radius: 10px;
+}
+
+.left{
+  font-size: 16px;
+  text-align: left;
+}

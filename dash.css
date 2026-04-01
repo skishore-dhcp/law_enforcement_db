@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Barlow:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Share Tech Mono', monospace;
+    background-color: black;
+    color: white;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.topbar {
+    width: 100%;
+    padding: 16px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #5789FF;
+    box-shadow: 0 2px 18px rgba(87, 137, 255, 0.2);
+    position: sticky;
+    top: 0;
+}
+
+.topbar-title {
+    font-size: 18px;
+    color: white;
+    background-color: transparent;
+}
+
+.topbar-title span {
+    color: #5789FF;
+    background-color: transparent;
+}
+
+.topbar-right {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    background-color: transparent;
+}
+
+.topbar-officer {
+    font-size: 13px;
+    color: #5789FF;
+    background-color: transparent;
+}
+
+.topbar-officer span {
+    color: white;
+    background-color: transparent;
+}
+
+.btn-logout {
+    font-size: 12px;
+    color: #5789FF;
+    text-decoration: none;
+    border: 1px solid #5789FF;
+    padding: 6px 16px;
+    border-radius: 6px;
+    background-color: transparent;
+    transition: transform 0.2s;
+    display: inline-block;
+}
+
+.btn-logout:hover {
+    transform: scale(1.05);
+}
+
+.main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 48px 24px;
+}
+
+h1 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    font-size: 13px;
+    text-align: center;
+    color: #5789FF;
+    margin-bottom: 48px;
+    background-color: transparent;
+}
+
+.stats-row {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 52px;
+    flex-wrap: wrap;
+    background-color: transparent;
+}
+
+.stat-card {
+    width: 200px;
+    padding: 20px;
+    box-shadow: 0 0 18px #5789FF;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.stat-label {
+    font-size: 11px;
+    color: #5789FF;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    background-color: transparent;
+    display: block;
+}
+
+.stat-value {
+    font-size: 32px;
+    color: white;
+    background-color: transparent;
+}
+
+.stat-sub {
+    font-size: 10px;
+    color: #5789FF;
+    letter-spacing: 0.1em;
+    margin-top: 4px;
+    background-color: transparent;
+    display: block;
+}
+
+.section-title {
+    font-size: 13px;
+    color: #5789FF;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    background-color: transparent;
+}
+
+.nav-cards {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: transparent;
+}
+
+.nav-card {
+    width: 260px;
+    padding: 20px;
+    box-shadow: 0 0 25px #5789FF;
+    border-radius: 10px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s;
+}
+
+.nav-card:hover {
+    transform: scale(1.05);
+}
+
+.nav-card-img {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 14px;
+    background-color: transparent;
+    border-bottom: 1px solid #5789FF;
+}
+
+.nav-card-icon {
+    font-size: 28px;
+    color: #5789FF;
+    letter-spacing: 0.15em;
+    background-color: transparent;
+}
+
+.nav-card-title {
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    margin-bottom: 8px;
+    background-color: transparent;
+}
+
+.nav-card-desc {
+    font-size: 11px;
+    text-align: center;
+    color: #5789FF;
+    line-height: 1.6;
+    background-color: transparent;
+}

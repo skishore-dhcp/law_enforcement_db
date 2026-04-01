@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CDMS — Dashboard</title>
+    <link rel="stylesheet" href="dash.css">
+</head>
+<body>
+
+    <header class="topbar">
+        <div class="topbar-title">CDMS <span>///</span> Dashboard</div>
+        <div class="topbar-right">
+            <span class="topbar-officer">Officer: <span>Kishore Kumar S (24BCE5097)</span></span>
+            <a href="login.html" class="btn-logout">Log Out</a>
+        </div>
+    </header>
+
+    <div class="main">
+
+        <h1>Welcome, Officer</h1>
+        <p class="subtitle">Criminal Database Management System</p>
+
+        <div class="stats-row">
+            <div class="stat-card">
+                <span class="stat-label">Criminals</span>
+                <div class="stat-value">1,284</div>
+                <span class="stat-sub">On Record</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-label">Active Cases</span>
+                <div class="stat-value">47</div>
+                <span class="stat-sub">In Progress</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-label">Total Arrests</span>
+                <div class="stat-value">3,901</div>
+                <span class="stat-sub">All Time</span>
+            </div>
+        </div>
+
+        <p class="section-title">— Records Access —</p>
+
+        <div class="nav-cards">
+
+            <a href="criminals.html" class="nav-card">
+                <div class="nav-card-img">
+                    <span class="nav-card-icon">[ CR ]</span>
+                </div>
+                <div class="nav-card-title">Prisoner Records</div>
+                <div class="nav-card-desc">View and manage criminal records and information.</div>
+            </a>
+
+            <a href="officers.html" class="nav-card">
+                <div class="nav-card-img">
+                    <span class="nav-card-icon">[ OF ]</span>
+                </div>
+                <div class="nav-card-title">Officer Records</div>
+                <div class="nav-card-desc">Manage officer records, arrests, and clearance levels.</div>
+            </a>
+
+            <a href="arrests.html" class="nav-card">
+                <div class="nav-card-img">
+                    <span class="nav-card-icon">[ AR ]</span>
+                </div>
+                <div class="nav-card-title">Arrest Records</div>
+                <div class="nav-card-desc">View and manage arrest records and charges filed.</div>
+            </a>
+
+        </div>
+    </div>
+
+</body>
+</html>
